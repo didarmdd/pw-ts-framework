@@ -21,7 +21,7 @@ export default defineConfig({
   reporter: [
     ["html", { outputFolder: "artifacts/playwright-report", open: "never" }],
     ["list"],
-    ["allure-playwright", { outputFolder: "artifacts/allure-results" }]
+    ["allure-playwright", { outputFolder: "allure-results" }]
   ],
   projects: [
     {

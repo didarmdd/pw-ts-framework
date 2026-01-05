@@ -13,7 +13,7 @@
     "lint": "eslint .",
     "format": "prettier -w .",
     "auth:state": "node ./scripts/create-storage-state.mjs",
-    "allure:generate": "allure generate artifacts/allure-results -o artifacts/allure-report --clean",
+    "allure:generate": "allure generate allure-results -o artifacts/allure-report --clean",
     "allure:open": "allure open artifacts/allure-report"
   },
   "devDependencies": {
