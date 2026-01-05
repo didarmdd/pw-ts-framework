@@ -1,0 +1,112 @@
+{
+  "uuid": "5a5e0710-c8b8-4eb6-b04b-557264178c5f",
+  "name": "OBP current user returns 200",
+  "historyId": "5ea2f0ee14c39b8da7aac357a6987e04:259864bbb84e0941359ea9e4c0db04ac",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1767572471998,
+      "uuid": "696fc13f-f1e8-4564-b809-c47fed8ce5e1",
+      "stop": 1767572472004
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1767572472006,
+      "name": "Create request context",
+      "uuid": "a9bf4753-e088-4566-baae-fb384e2db44c",
+      "stop": 1767572472022
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1767572472023,
+      "name": "POST \"/my/logins/direct\"",
+      "uuid": "61a1da73-4911-4cca-b300-4b1b701e0066",
+      "stop": 1767572473703
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1767572473705,
+      "name": "Create request context",
+      "uuid": "dfa111c6-f035-4750-8f04-c29f9ddd977f",
+      "stop": 1767572473706
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1767572473708,
+      "name": "GET \"/obp/v5.1.0/users/current\"",
+      "uuid": "10d62151-c5f4-467f-afa8-b3d21befc6e7",
+      "stop": 1767572474054
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1767572474056,
+      "name": "Expect \"toBe\"",
+      "uuid": "1aa938cb-322f-49b9-8599-63412d972cd3",
+      "stop": 1767572474057
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1767572474058,
+      "uuid": "459cebb6-b0a1-451f-8376-ee2d22eeb38c",
+      "stop": 1767572474067
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "api" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "api.obp-current-user.api.spec.ts" },
+    { "name": "titlePath", "value": " > api > api/obp-current-user.api.spec.ts" },
+    { "name": "host", "value": "Didars-MacBook-Pro-2.local" },
+    { "name": "thread", "value": "pid-6596-worker-0" },
+    { "name": "parentSuite", "value": "api" },
+    { "name": "suite", "value": "api/obp-current-user.api.spec.ts" }
+  ],
+  "links": [],
+  "start": 1767572472001,
+  "testCaseId": "5ea2f0ee14c39b8da7aac357a6987e04",
+  "fullName": "api/obp-current-user.api.spec.ts:5:5",
+  "titlePath": ["api", "obp-current-user.api.spec.ts"],
+  "stop": 1767572474056
+}

@@ -1,0 +1,55 @@
+{
+  "uuid": "b71d2219-e5de-41f0-ba1c-5ada1a1f6635",
+  "name": "OBP current user returns 200",
+  "historyId": "5ea2f0ee14c39b8da7aac357a6987e04:259864bbb84e0941359ea9e4c0db04ac",
+  "status": "failed",
+  "statusDetails": {
+    "message": "TypeError: (0 , _obpAuth.getObpDirectLoginToken) is not a function",
+    "trace": "TypeError: (0 , _obpAuth.getObpDirectLoginToken) is not a function\n    at /Users/didar/Downloads/pw-ts-framework/src/tests/api/obp-current-user.api.spec.ts:9:45"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1767570752877,
+      "uuid": "2f87afe9-c182-400b-8917-a4889a8e3660",
+      "stop": 1767570752882
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1767570752882,
+      "uuid": "39b36913-b092-4771-acac-255311fe931d",
+      "stop": 1767570752885
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "api" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "api.obp-current-user.api.spec.ts" },
+    { "name": "titlePath", "value": " > api > api/obp-current-user.api.spec.ts" },
+    { "name": "host", "value": "Didars-MacBook-Pro-2.local" },
+    { "name": "thread", "value": "pid-4285-worker-0" },
+    { "name": "parentSuite", "value": "api" },
+    { "name": "suite", "value": "api/obp-current-user.api.spec.ts" }
+  ],
+  "links": [],
+  "start": 1767570752880,
+  "testCaseId": "5ea2f0ee14c39b8da7aac357a6987e04",
+  "fullName": "api/obp-current-user.api.spec.ts:5:5",
+  "titlePath": ["api", "obp-current-user.api.spec.ts"],
+  "stop": 1767570752881
+}

@@ -1,0 +1,141 @@
+{
+  "uuid": "55f45043-f1db-4ffc-bebb-f623974df1a4",
+  "name": "API health check @smoke @api",
+  "historyId": "79b140c0255658c1af7b0674be76219d:259864bbb84e0941359ea9e4c0db04ac",
+  "status": "failed",
+  "statusDetails": {
+    "message": "Error: apiRequestContext.get: getaddrinfo ENOTFOUND dev-api-yourapp.example\nCall log:\n  - → GET https://dev-api-yourapp.example/health\n    - user-agent: Playwright/1.57.0 (arm64; macOS 26.2) node/22.14\n    - accept: */*\n    - accept-encoding: gzip,deflate,br\n",
+    "trace": "Error: apiRequestContext.get: getaddrinfo ENOTFOUND dev-api-yourapp.example\nCall log:\n  - → GET https://dev-api-yourapp.example/health\n    - user-agent: Playwright/1.57.0 (arm64; macOS 26.2) node/22.14\n    - accept: */*\n    - accept-encoding: gzip,deflate,br\n\n    at ApiClient.get (/Users/didar/Downloads/pw-ts-framework/src/core/api/apiClient.ts:29:36)\n    at /Users/didar/Downloads/pw-ts-framework/src/tests/api/health.api.spec.ts:5:31"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create request context",
+              "start": 1767570702643,
+              "uuid": "f0ca37b7-ca57-4a75-b8a6-8abfda119771",
+              "stop": 1767570702662
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"request\"",
+          "start": 1767570702638,
+          "uuid": "5bab6e35-777b-4f83-ae66-a28eafcc7b3e",
+          "stop": 1767570702662
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"apiClient\"",
+          "start": 1767570702662,
+          "uuid": "b78144f4-9e9a-47a3-9ce3-8491dae27036",
+          "stop": 1767570702662
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1767570702633,
+      "uuid": "cf01d6ac-79ec-4b46-8453-58d6fae4e8e5",
+      "stop": 1767570702662
+    },
+    {
+      "status": "failed",
+      "statusDetails": {
+        "message": "Error: apiRequestContext.get: getaddrinfo ENOTFOUND dev-api-yourapp.example\nCall log:\n  - → GET https://dev-api-yourapp.example/health\n    - user-agent: Playwright/1.57.0 (arm64; macOS 26.2) node/22.14\n    - accept: */*\n    - accept-encoding: gzip,deflate,br\n",
+        "trace": "Error: apiRequestContext.get: getaddrinfo ENOTFOUND dev-api-yourapp.example\nCall log:\n  - → GET https://dev-api-yourapp.example/health\n    - user-agent: Playwright/1.57.0 (arm64; macOS 26.2) node/22.14\n    - accept: */*\n    - accept-encoding: gzip,deflate,br\n\n    at ApiClient.get (/Users/didar/Downloads/pw-ts-framework/src/core/api/apiClient.ts:29:36)\n    at /Users/didar/Downloads/pw-ts-framework/src/tests/api/health.api.spec.ts:5:31"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1767570702664,
+      "name": "GET \"/health\"",
+      "uuid": "46ef6b81-a8fd-4d34-82a4-53beb646aa5e",
+      "stop": 1767570702714
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"apiClient\"",
+          "start": 1767570702715,
+          "uuid": "caee1f88-5060-4ff6-bc5e-c3bf927be7f8",
+          "stop": 1767570702715
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"request\"",
+          "start": 1767570702715,
+          "uuid": "6d79c08d-a88a-4c1f-9939-eeff55a8e5d5",
+          "stop": 1767570702718
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1767570702714,
+      "uuid": "6058cf3b-db29-4175-954e-2a33431d0007",
+      "stop": 1767570702721
+    }
+  ],
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "fbdf8363-9073-4463-a280-056b97d1510d-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [{ "name": "Project", "value": "api" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "api.health.api.spec.ts" },
+    { "name": "titlePath", "value": " > api > api/health.api.spec.ts" },
+    { "name": "tag", "value": "smoke" },
+    { "name": "tag", "value": "api" },
+    { "name": "host", "value": "Didars-MacBook-Pro-2.local" },
+    { "name": "thread", "value": "pid-4157-worker-0" },
+    { "name": "parentSuite", "value": "api" },
+    { "name": "suite", "value": "api/health.api.spec.ts" }
+  ],
+  "links": [],
+  "start": 1767570702639,
+  "testCaseId": "79b140c0255658c1af7b0674be76219d",
+  "fullName": "api/health.api.spec.ts:4:5",
+  "titlePath": ["api", "health.api.spec.ts"],
+  "stop": 1767570702718
+}
